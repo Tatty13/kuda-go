@@ -1,0 +1,24 @@
+.intro__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: .8s ease-in-out;
+  opacity: 0;
+}
+
+.intro__image-wrap:hover .intro__image {
+  opacity: 1;
+}
+
+.intro__image-wrap {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+  transition: .8s ease-in-out;
+  background-image: url(../../../images/intro-image.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+

@@ -1,0 +1,7 @@
+.place__image {
+  box-sizing: border-box;
+  object-fit: cover;
+  width: 50%;
+  height: 40vw;
+  max-height: 600px;
+}

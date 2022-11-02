@@ -1,0 +1,7 @@
+.header__list-item {
+  margin: 0;
+}
+
+.header__list-item:last-child {
+  margin-left: auto;
+}
