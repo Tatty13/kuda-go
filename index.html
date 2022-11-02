@@ -4,9 +4,96 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Куда я поеду</title>
 </head>
-<body>
-  
+<body class="page">
+  <header class="header">
+    <nav>
+      <ul class="header__list">
+        <li class="header__list-item">
+          <a class="header__link" href="#">Мечты</a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__link" href="#">Ожидания</a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__link" href="#">Реальность</a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__link" href="#">Пожаловаться</a>
+        </li>
+      </ul>
+    </nav>  
+  </header>
+  <main class="content">
+    <section class="intro">
+      <div class="intro__text">
+        <span class="intro__subtitle">куда я поеду</span>
+        <h1 class="intro__title">Куда я поеду сразу, как можно будет куда-то поехать</h1>
+      </div>
+      <div class="intro__image-wrap">
+        <img class="intro__image" src="./images/intro_gif.gif" alt="Самолет в облаках">
+      </div>
+    </section>
+    <section class="places">
+      <article class="place">
+        <img class="place__image" src="./images/places-forest.jpeg" alt="Водопад в лесу">
+        <div class="place__text-container">
+          <h2 class="place__title">Поеду в лес</h2>
+          <div class="place__description">
+            <p class="place__paragraph">Лес — экологическая система, биоценоз, в которой главной жизненной формой являются деревья.</p>
+            <p class="place__paragraph">Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях. В глобальном масштабе — это часть биосферы, в локальном — это может быть насаждение. Леса занимают около трети площади суши.</p>
+          </div>
+        </div>
+      </article>
+      <article class="place place_revers">
+        <div class="place__text-container">
+          <h2 class="place__title">Поеду в горы</h2>
+          <div class="place__description">
+            <p class="place__paragraph">Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало большинство рек Земли.</p>
+          </div>
+        </div>
+        <img class="place__image" src="./images/places-mountains.jpeg" alt="Гора">
+      </article>
+      <article class="place">
+        <img class="place__image" src="./images/places-black-sea.jpeg" alt="Море">
+        <div class="place__text-container">
+          <h2 class="place__title">Поеду на Чёрное море</h2>
+          <div class="place__description">
+            <p class="place__paragraph">Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и никогда раньше не был, я уплыву. Я позову тебя смотреть на синее небо и пить по капле синее небо, и падать в это синее небо, я позову.</p>
+            <p class="place__paragraph">Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.</p>
+            <p class="place__paragraph">Уеду я.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="people">
+      <span class="people__subtitle">люди</span>
+      <h2 class="people__title">Что говорят и говорили люди о путешествиях</h2>
+      <ul class="people__cards">
+        <li class="people__card">
+          <h3 class="people__author">Иван Бунин</h3>
+          <p class="people__paragraph">Человека делают счастливым три вещи: любовь, интересная работа и возможность путешествовать.</p>
+          </li>
+        <li class="people__card">
+          <h3 class="people__author">Альбер Камю</h3>
+          <p class="people__paragraph">Путешествие как самая великая и серьезная наука помогает нам вновь обрести себя.</p>
+        </li>
+        <li class="people__card">
+          <h3 class="people__author">Норвежская пословица</h3>
+          <p class="people__paragraph">Лишь тот, кто странствует, открывает новые пути.</p></li>
+        <li class="people__card">
+          <h3 class="people__author">Мария Захарова</h3>
+          <p class="people__paragraph">В принципе зарубежная поездка – это серьезнейшее, ответственнейшее и очень рискованное предприятие.</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__copyright">© 2022</p>
+    <p class="footer__author">Tatty</p>
+    <p class="footer__author">Arok</p>
+  </footer>
 </body>
 </html>
