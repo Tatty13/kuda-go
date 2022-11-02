@@ -1,0 +1,36 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__list/header__list.css);
+@import url(../blocks/header/__list-item/header__list-item.css);
+@import url(../blocks/header/__link/header__link.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__image/intro__image.css);
+@import url(../blocks/intro/__subtitle/intro__subtitle.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__title/intro__title.css);
+
+@import url(../blocks/places/places.css);
+
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__description/place__description.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__text-container/place__text-container.css);
+@import url(../blocks/place/__title/place__title.css);
+
+@import url(../blocks/people/people.css);
+@import url(../blocks/people/__author/people__author.css);
+@import url(../blocks/people/__card/people__card.css);
+@import url(../blocks/people/__cards/people__cards.css);
+@import url(../blocks/people/__paragraph/people__paragraph.css);
+@import url(../blocks/people/__subtitle/people__subttitle.css);
+@import url(../blocks/people/__title/people__title.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__author/footer__author.css);
