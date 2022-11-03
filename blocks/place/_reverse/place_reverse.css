@@ -1,0 +1,5 @@
+.place_reverse {
+  grid-template-areas: 
+    'title img'
+    'paragraphs img';
+}
