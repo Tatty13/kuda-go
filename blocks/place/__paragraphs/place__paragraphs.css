@@ -1,0 +1,9 @@
+.place__paragraphs {
+  grid-area: paragraphs;
+  align-self: end;
+  margin: 0 50px 50px;
+  max-width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px; 
+}
