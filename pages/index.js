@@ -1,0 +1,1 @@
+import {} from '../blocks/place/__img-wrap/place__img-wrap.js';
