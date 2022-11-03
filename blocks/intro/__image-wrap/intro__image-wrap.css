@@ -1,0 +1,7 @@
+.intro__image-wrap {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background: url(../../../images/intro-image.jpeg) no-repeat center / cover;
+  cursor: pointer;
+}
