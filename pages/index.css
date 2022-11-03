@@ -15,13 +15,18 @@
 @import url(../blocks/intro/__title/intro__title.css);
 
 @import url(../blocks/places/places.css);
+@import url(../blocks/places/__list/places__list.css);
 
 @import url(../blocks/place/place.css);
-@import url(../blocks/place/__description/place__description.css);
-@import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/place/__text-container/place__text-container.css);
+@import url(../blocks/place/_reverse/place_reverse.css);
+@import url(../blocks/place/__img-wrap/place__img-wrap.css);
+@import url(../blocks/place/__img-wrap/_content/place__img-wrap_content_forest.css);
+@import url(../blocks/place/__img-wrap/_content/place__img-wrap_content_mountains.css);
+@import url(../blocks/place/__img-wrap/_content/place__img-wrap_content_sea.css);
+@import url(../blocks/place/__gif/place__gif.css);
 @import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
 
 @import url(../blocks/people/people.css);
 @import url(../blocks/people/__author/people__author.css);
