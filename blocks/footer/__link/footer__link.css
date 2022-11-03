@@ -1,0 +1,10 @@
+.footer__link {
+  text-decoration: none;
+  color: #000;
+  font-size: 32px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+}
