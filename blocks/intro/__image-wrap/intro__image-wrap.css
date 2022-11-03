@@ -9,4 +9,6 @@
 
 .intro__image-wrap:hover {
   border-radius: 128px;
+  border: 3px solid #615d6a;
+  box-shadow: 0px 0px 6px 6px #000;
 }
