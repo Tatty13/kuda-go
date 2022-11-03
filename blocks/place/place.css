@@ -1,7 +1,7 @@
 .place {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: minmax(100px, 180px) minmax(100px, 360px);
+  grid-template-rows: minmax(100px, 180px) minmax(100px, 355px);
   grid-template-areas: 
     'img title'
     'img paragraphs';

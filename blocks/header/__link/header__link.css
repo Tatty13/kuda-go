@@ -1,9 +1,11 @@
 .header__link {
   position: relative;
+  display: block;
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
   color: black;
+  transition: .8s;
 }
 
 .header__link:before {
@@ -14,8 +16,8 @@
   height: 1px;
   width: 0;
   background: linear-gradient(90deg, rgba(20,20,20,1) 0%, rgba(254,205,167,1) 51%, rgba(20,20,20,1) 100%);
-  transition: 0.8s;
-} 
+  transition: .8s;
+}
 
 .header__link:after {
   content: '';
@@ -25,10 +27,10 @@
   height: 1px;
   width: 0;
   background: linear-gradient(90deg, rgba(20,20,20,1) 0%, rgba(254,205,167,1) 51%, rgba(20,20,20,1) 100%);
-  transition: 0.8s;
-}  
+  transition: .8s;
+}
 
 .header__link:hover:before,
 .header__link:hover:after {
   width: 120%;
-}  
+}

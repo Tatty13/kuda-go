@@ -1,8 +1,8 @@
 .intro  {
   display: grid;
   margin: 0;
-  padding: 100px 40px 100px;
-  grid-template-columns: minmax(320px, 680px) 420px;
-  grid-template-rows: 420px;
+  padding: 85px 155px 130px 70px;
+  grid-template-columns: minmax(320px, 680px) 355px;
+  grid-template-rows: 355px;
   gap: 20px;
 }
