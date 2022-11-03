@@ -4,4 +4,9 @@
   overflow: hidden;
   background: url(../../../images/intro-image.jpeg) no-repeat center / cover;
   cursor: pointer;
+  transition: .3s;
+}
+
+.intro__image-wrap:hover {
+  border-radius: 128px;
 }
