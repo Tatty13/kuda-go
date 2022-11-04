@@ -10,14 +10,6 @@
   background: #fecda7;
 }
 
-.header__burger-btn_active .header__burger-line:nth-of-type(2) {
+.header__burger-btn_active .header__burger-line {
   display: none;
-}
-
-.header__burger-btn_active .header__burger-line:first-child {
-  transform: rotate(45deg) translate(1px, 1px);
-}
-
-.header__burger-btn_active .header__burger-line:last-child {
-  transform: rotate(-45deg) translate(1px, -1px);;
 }
