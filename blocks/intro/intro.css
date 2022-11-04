@@ -6,3 +6,32 @@
   grid-template-rows: 355px;
   gap: 20px;
 }
+
+@media screen and (max-width: 1200px) {
+  .intro {
+    padding-right: 70px;
+    transition: .5s;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .intro {
+    padding: 65px 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    grid-template-columns: 1fr 300px;
+    grid-template-rows: 300px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .intro {
+    padding: 35px 16px 45px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr calc(100vw - 32px);
+    gap: 30px;
+  }
+}

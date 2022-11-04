@@ -7,3 +7,27 @@
   flex-direction: column;
   gap: 20px; 
 }
+
+@media screen and (max-width: 1110px) {
+  .place__paragraphs {
+    margin-bottom: 65px;
+    margin-left: 40px;
+    margin-right: 40px;
+    max-width: 75%;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .place__paragraphs {
+    margin-bottom: 45px;
+    margin-left: 30px;
+    margin-right: 30px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraphs {
+    margin: 30px 0 50px;
+  }
+}

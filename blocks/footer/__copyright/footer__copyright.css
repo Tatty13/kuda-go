@@ -4,3 +4,16 @@
   margin: 0;
   text-align: center;
 }
+
+@media screen and (max-width: 868px) {
+  .footer__copyright {
+    font-size: 16px;
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .footer__copyright {
+    font-size: 14px;
+  }
+}

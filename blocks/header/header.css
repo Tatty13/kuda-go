@@ -1,3 +1,20 @@
 .header {
   padding: 50px 70px 0;
 }
+
+@media screen and (max-width: 868px) {
+  .header {
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: .5s;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .header {
+    padding-top: 25px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

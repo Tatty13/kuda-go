@@ -41,3 +41,15 @@
 .footer__link:hover:after {
   width: 120%;
 }
+
+@media screen and (max-width: 868px) {
+  .footer__link {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .footer__link {
+    font-size: 18px;
+  }
+}

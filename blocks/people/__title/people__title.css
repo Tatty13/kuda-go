@@ -3,5 +3,31 @@
   font-weight: 700;
   line-height: 1.2;
   margin: 30px 0 110px;
-  max-width: 40%;
+  max-width: 45%;
+}
+
+@media screen and (max-width: 1100px) {
+  .people__title {
+    max-width: 530px;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .people__title {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .people__title {
+    font-size: 28px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .people__title {
+    text-align: center;
+  }
 }

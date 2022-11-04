@@ -5,3 +5,17 @@
   padding: 0;
   gap: 50px;
 }
+
+@media screen and (max-width: 768px) {
+  .header__list {
+    gap: 30px;
+    transition: .5s;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .header__list {
+    display: none;
+  }
+}
+

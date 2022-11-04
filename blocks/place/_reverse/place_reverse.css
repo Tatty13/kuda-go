@@ -3,3 +3,13 @@
     'title img'
     'paragraphs img';
 }
+
+@media screen and (max-width: 768px) {
+  .place_reverse {
+    grid-template-areas: 
+      'title'
+      'img'
+      'paragraphs';
+    background-color: #fff;
+  }
+}   

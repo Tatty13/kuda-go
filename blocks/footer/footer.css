@@ -7,3 +7,17 @@
   justify-content: center;
   gap: 40px;
 }
+
+@media screen and (max-width: 868px) {
+  .footer {
+    min-height: 300px;
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .footer {
+    min-height: 140px;
+    gap: 15px;
+  }
+}
