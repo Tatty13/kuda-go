@@ -4,3 +4,16 @@
   line-height: 1.2;
   margin: 25px 0 0;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .intro__title {
+    text-align: center;
+    margin-top: 15px;
+  }
+}

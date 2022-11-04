@@ -1,3 +1,9 @@
 .footer__icon {
   width: 28px;
 }
+
+@media screen and (max-width: 868px) {
+  .footer__icon {
+    width: 20px;
+  }
+}

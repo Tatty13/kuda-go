@@ -6,3 +6,9 @@
   margin: 0;
   gap: 30px;
 }
+
+@media screen and (max-width: 360px) {
+  .footer__authors {
+    gap: 15px;
+  }
+}
