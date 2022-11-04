@@ -1,0 +1,20 @@
+.header__claim-btn {
+  margin-left: auto;
+  order: 2;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.header__claim-btn:hover {
+  color: #fecda7;
+}
+
+.header__claim-btn:active {
+  opacity: .6;
+}

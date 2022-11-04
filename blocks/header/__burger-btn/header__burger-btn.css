@@ -1,13 +1,13 @@
 .header__burger-btn {
   position: relative;
   z-index: 10;
-  margin-left: auto;
   padding: 0;
   width: 24px;
   height: 15px;
   display: none;
   align-items: center;
   border: none;
+  outline: none;
   background: transparent;
   cursor: pointer;
 }
