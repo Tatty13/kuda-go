@@ -16,5 +16,6 @@
     padding-top: 25px;
     padding-left: 16px;
     padding-right: 16px;
+    min-height: 15px;
   }
 }

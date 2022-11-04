@@ -1,0 +1,15 @@
+.header__burger-line {
+  height: 3px;
+  width: 100%;
+  background: #000;
+  border-radius: 2px;
+  transition: .3s;
+}
+
+.header__burger-btn:hover .header__burger-line {
+  background: #fecda7;
+}
+
+.header__burger-btn_active .header__burger-line {
+  display: none;
+}
