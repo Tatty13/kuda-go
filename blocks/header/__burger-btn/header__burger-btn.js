@@ -9,8 +9,14 @@ function toggleMenu() {
   overlay.classList.toggle('overlay_open');
 }
 
+function closeMenu() {
+  menu.classList.remove('header__list_open');
+  burgerBtn.classList.remove('header__burger-btn_active');
+  overlay.classList.remove('overlay_open');
+}
+
 burgerBtn.addEventListener('click', toggleMenu);
-menuLinks.forEach(link => link.addEventListener('click', toggleMenu));
-overlay.addEventListener('click', toggleMenu);
+menuLinks.forEach(link => link.addEventListener('click', closeMenu));
+overlay.addEventListener('click', closeMenu);
 
 export {};
