@@ -11,7 +11,7 @@
   transition: .8s;
 }
 
-.footer__link:before {
+.footer__link::before {
   content: '';
   position: absolute;
   top: -15%;
@@ -22,7 +22,7 @@
   transition: .8s;
 }
 
-.footer__link:after {
+.footer__link::after {
   content: '';
   position: absolute;
   bottom: -15%;
@@ -37,8 +37,8 @@
   transform: scale(.98);
 }
 
-.footer__link:hover:before,
-.footer__link:hover:after {
+.footer__link:hover::before,
+.footer__link:hover::after {
   width: 120%;
 }
 

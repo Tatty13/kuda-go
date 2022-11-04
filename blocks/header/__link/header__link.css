@@ -8,7 +8,7 @@
   transition: .8s;
 }
 
-.header__link:before {
+.header__link::before {
   content: '';
   position: absolute;
   top: -15%;
@@ -19,7 +19,7 @@
   transition: .8s;
 }
 
-.header__link:after {
+.header__link::after {
   content: '';
   position: absolute;
   bottom: -15%;
@@ -30,8 +30,8 @@
   transition: .8s;
 }
 
-.header__link:hover:before,
-.header__link:hover:after {
+.header__link:hover::before,
+.header__link:hover::after {
   width: 120%;
 }
 
