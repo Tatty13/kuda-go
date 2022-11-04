@@ -1,7 +1,7 @@
 .header__burger-btn_active {
   position: fixed;
   top: 25px;
-  right: 16px;
+  left: 16px;
 }
 
 .header__burger-btn_active::before {

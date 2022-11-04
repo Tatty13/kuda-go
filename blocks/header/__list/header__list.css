@@ -17,7 +17,7 @@
   .header__list {
     position: fixed;
     top: 0;
-    right: -220px;
+    left: -220px;
     flex-direction: column;
     padding: 77px 40px 40px;
     background: #f2f2f2;
