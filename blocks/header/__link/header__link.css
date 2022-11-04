@@ -34,3 +34,9 @@
 .header__link:hover:after {
   width: 120%;
 }
+
+@media screen and (max-width: 630px) {
+  .header__link {
+    font-size: 20px;
+  }
+}

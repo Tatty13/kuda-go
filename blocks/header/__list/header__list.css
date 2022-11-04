@@ -18,8 +18,9 @@
     position: fixed;
     top: 0;
     left: -220px;
+    padding: 90px 75px 65px 25px;
     flex-direction: column;
-    padding: 77px 40px 40px;
+    align-items: flex-start;
     background: #f2f2f2;
     z-index: 5;
   }
