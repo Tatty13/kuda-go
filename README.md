@@ -1,6 +1,6 @@
 <h1 align="center">Куда я поеду</h1>
 <div align="center">
-  <img src="./images/intro-gif.gif" alt="Самолет" width="300" height="300" style="border-radius: 128px; border: 3px solid #615d6a; box-shadow: 0px 0px 6px 6px #000;">
+  <img src="./images/intro-gif.gif" alt="Самолет" width="300" height="300">
 </div>
 
 ---
