@@ -5,7 +5,7 @@
 
 ---
 
-<h2>Работа выполнена с использованрием:</h2>
+<h2>Работа выполнена с использованием:</h2>
 <ul>
   <li><p>Язык разметки HTML <img src="./images/readme-html.png" height="20"></p></li>
   <li><p>Каскадные таблицы стилей <img src="./images/readme-css.png" height="20"></p></li>
@@ -26,6 +26,6 @@
 
 ---
 
-<p style="text-align: center;"><a href="https://tatty13.github.io/kuda-go/" target="_blank">Деплой проекта</a></p>
+<p><a href="https://tatty13.github.io/kuda-go/" target="_blank">Деплой проекта</a></p>
 
 ---
