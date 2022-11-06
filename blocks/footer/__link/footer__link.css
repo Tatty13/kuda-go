@@ -6,31 +6,30 @@
   justify-content: center;
   color: #000;
   font-size: 32px;
+  line-height: 1.2;
   font-weight: 400;
   text-decoration: none;
   transition: .8s;
 }
 
-.footer__link::before {
+.footer__link::before,
+.footer__link::after {
   content: '';
   position: absolute;
-  top: -15%;
-  left: -10%;
   height: 1px;
   width: 0;
   background: linear-gradient(90deg, rgba(20,20,20,1) 0%, rgba(255, 255, 255, 1) 51%, rgba(20,20,20,1) 100%);
   transition: .8s;
 }
 
+.footer__link::before {
+  top: -15%;
+  left: -10%;
+}
+
 .footer__link::after {
-  content: '';
-  position: absolute;
   bottom: -15%;
   right: -10%;
-  height: 1px;
-  width: 0;
-  background: linear-gradient(90deg, rgba(20,20,20,1) 0%, rgba(255, 255, 255, 1) 51%, rgba(20,20,20,1) 100%);
-  transition: .8s;
 }
 
 .footer__link:hover {
