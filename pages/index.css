@@ -43,7 +43,7 @@
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
 @import url(../blocks/people/people.css);
-@import url(../blocks/people/__author/people__author.css);
+@import url(../blocks/people/__quote-author/people__quote-author.css);
 @import url(../blocks/people/__card/people__card.css);
 @import url(../blocks/people/__cards/people__cards.css);
 @import url(../blocks/people/__quote/people__quote.css);
