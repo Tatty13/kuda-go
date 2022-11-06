@@ -2,11 +2,13 @@
   position: fixed;
   right: 16px;
   bottom: 20px;
+  padding: 0;
   width: 40px;
   height: 40px;
   display: none;
   border: 2px solid #000;
   border-radius: 50%;
+  outline: none;
   background-color: transparent;
   opacity: .3;
   cursor: pointer;
