@@ -8,6 +8,10 @@
 @import url(../blocks/overlay/overlay.css);
 @import url(../blocks/overlay/_open/overlay_open.css);
 
+@import url(../blocks/to-top-btn/to-top-btn.css);
+@import url(..//blocks/to-top-btn/_visible/to-top-btn_visible.css);
+@import url(../blocks/to-top-btn/__arrow/to-top-btn__arrow.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__list/header__list.css);
 @import url(../blocks/header/__list/_open/header__list_open.css);
