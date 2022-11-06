@@ -2,8 +2,8 @@ const imgWraps = document.querySelectorAll('.place__img-wrap');
 
 const audioData = {
   forest: './sounds/forest.mp3',
-  mountains: '/sounds/mountains.mp3',
-  sea: '../sounds/sea.mp3'
+  mountains: './sounds/mountains.mp3',
+  sea: './sounds/sea.mp3'
 }
 const audio = new Audio();
 audio.loop = 'true';
