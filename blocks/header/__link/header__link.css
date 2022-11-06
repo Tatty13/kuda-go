@@ -8,26 +8,24 @@
   transition: .8s;
 }
 
-.header__link::before {
+.header__link::before,
+.header__link::after {
   content: '';
   position: absolute;
-  top: -15%;
-  left: -10%;
   height: 1px;
   width: 0;
   background: linear-gradient(90deg, rgba(20,20,20,1) 0%, rgba(254,205,167,1) 51%, rgba(20,20,20,1) 100%);
   transition: .8s;
 }
 
+.header__link::before {
+  top: -15%;
+  left: -10%;
+}
+
 .header__link::after {
-  content: '';
-  position: absolute;
   bottom: -15%;
   right: -10%;
-  height: 1px;
-  width: 0;
-  background: linear-gradient(90deg, rgba(20,20,20,1) 0%, rgba(254,205,167,1) 51%, rgba(20,20,20,1) 100%);
-  transition: .8s;
 }
 
 .header__link:hover::before,
