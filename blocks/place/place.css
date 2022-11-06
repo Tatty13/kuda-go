@@ -16,20 +16,12 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    padding: 0 40px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr minmax(320px, 650px);
     grid-template-areas: 
     'title'
     'img'
     'paragraphs';
-  }
-}
-
-@media screen and (max-width: 630px) {
-  .place {
-    padding-left: 16px;
-    padding-right: 16px;
   }
 }
 

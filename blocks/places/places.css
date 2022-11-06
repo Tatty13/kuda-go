@@ -1,5 +1,13 @@
-/* .places {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
+@media screen and (max-width: 768px) {
+  .places {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .places {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
