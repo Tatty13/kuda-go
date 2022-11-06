@@ -3,13 +3,10 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: no-repeat center / cover;
   cursor: pointer;
 }
 
 .place__img-wrap:hover .place__gif  {
   opacity: 1;
-  /* transform: scale(1.05); */
 } 
