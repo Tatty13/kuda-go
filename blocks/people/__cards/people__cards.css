@@ -23,3 +23,9 @@
     gap: 50px;
   }
 }
+
+@media screen and (max-width: 460px) {
+  .people__cards {
+    width: 100%;
+  }
+}
