@@ -16,16 +16,11 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .people {
-    padding: 40px 16px 60px;
-  }
-}
-
 @media screen and (max-width: 630px) {
   .people {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 40px 16px;
   }
 }
