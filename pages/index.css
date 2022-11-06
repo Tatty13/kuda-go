@@ -44,7 +44,6 @@
 
 @import url(../blocks/people/people.css);
 @import url(../blocks/people/__author/people__author.css);
-@import url(../blocks/people/__card/people__card.css);
 @import url(../blocks/people/__cards/people__cards.css);
 @import url(../blocks/people/__paragraph/people__paragraph.css);
 @import url(../blocks/people/__subtitle/people__subttitle.css);
