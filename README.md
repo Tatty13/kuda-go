@@ -1,6 +1,6 @@
 <h1 align="center">Куда я поеду</h1>
 <div align="center">
-  <img src="./images/intro-gif.gif" alt="Самолет" width="300" height="300">
+  <img src="./images/gif-README.gif" alt="Самолет">
 </div>
 
 ---
